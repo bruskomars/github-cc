@@ -1,0 +1,26 @@
+git init
+    - initialize git in project
+git status
+    - get current repo status
+git add "name" or .
+    - add changes in git(for next commit)
+git commit -m "
+    - commit changes in git(with a message)
+git checkout <ID>
+    - go back to commit ID
+git checkout master
+    - return to the current commit Master/main
+git revert <ID>
+    - revert  changes of commit(by creating new commit)
+git revert --hard <ID>
+    - delete all the commits created after that commit ID
+git branch <name>
+    - craete a branch
+git branch
+    - view all branches in repo
+git checkout <branch name>
+    - switch to that branch
+git branch -D <name>
+    - delete branch
+git checkout -b <name>
+    - switch to branch after creating it
