@@ -24,3 +24,5 @@ git branch -D <name>
     - delete branch
 git checkout -b <name>
     - switch to branch after creating it
+git merge <branch name>
+    - merge changes from that branch to main/master
